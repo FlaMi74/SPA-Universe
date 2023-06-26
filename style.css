@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+}
+
+#home, #univ, #explo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#home img,
+#univ  img,
+#explo img {
+    width: 100%;
+    height: 100vh;
+}
+
+#home .explore {
+    position: absolute;
+    text-align: center;
+}
+
+#home .explore button {
+    padding: 1.2rem 3.2rem;
+    gap: 8px;
+    width: 19.5rem;
+    height: 4.8rem;
+    justify-content: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.nav {
+    width: 100%;
+    height: 15rem;
+    top: 0;
+    left: 0;
+    display: flex;
+
+    position: absolute;
+    align-items: center;
+    gap: 3.2rem;
+    padding: 2.5rem 44.9rem 2.5rem 4.5rem;
+}
+
+.nav a {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    text-decoration: none;
+    text-align: center;
+    justify-self: center;
+    margin-top: 1.2rem ;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    color: #E1E1E6;
+    margin-bottom: 2.4rem;
+}
+
+.universo,
+.exploration {
+    display: grid;
+    flex-direction: column;
+    justify-self: left;
+    align-self: center;
+    width: 64.8rem;
+    margin-top: 8rem;
+    
+    position: absolute;
+    left: 10.2rem;
+}
+
+.exploration {
+    margin-top: 0;
+}
+
+p {
+    display: grid;
+    width: 64.8rem;
+    height: 20.3rem;
+    font-size: 1.8rem;
+    
+    color: #E1E1E6;
+}
+
+footer {
+    width: 42rem;
+    height: 3rem;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-self: flex-end;
+}
+
+footer svg {
+    width: 3rem;
+    height: 2rem;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 1.7rem ;
+    padding: 0 3rem;
+}
+
